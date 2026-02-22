@@ -297,7 +297,7 @@ Lists directory entries. Subdirectories are indicated with a trailing `/`, mirro
 
 Tuning the system prompt for a new model can take trial and error. To make this faster, the harness includes a built-in `/test` command that sends a minimal canned prompt and reports whether the protocol is working:
 
-```
+````
 You: /test
 
 [test] Sending canned prompt to verify write: protocol…
@@ -310,7 +310,7 @@ hello
 [cmd] write:hello.txt → [Written: hello.txt]
 [test] PASS — hello.txt written with correct content.
 
-```
+````
 
 The test uses a fresh, isolated history so it doesn't contaminate the ongoing conversation.
 
@@ -351,7 +351,7 @@ Optional environment variables:
 
 ## The Resulting 'Vibe Coding' Session
 
-Observations:
+**Observations:**
 
 - The model was able to write the `.js` file and `package.json` given the commands we gave it.
 - The model produced invalid JavaScript.
@@ -359,7 +359,9 @@ Observations:
 - The model used `read:calendar_days.js:0:365` — index 0 — despite the protocol being 1-based. The harness silently clamps this to 1 via `Math.max(1, 0)`, so no error was raised. The model was misusing its own tool without knowing it.
 - The "corrected" script the model produced was also wrong: `Array.from({ length: 365 }, (_, i) => \`(${i + 1})th December\`)` generates `(1)th December` through `(365)th December` for every entry — no month names at all. The model then claimed it "ran correctly", which it did not.
 
-```
+**Agent Session Conversation Text:**
+
+````
 PS C:\Users\<User>\src\local-ai> node src/index.js
 Debugger listening on ws://127.0.0.1:64124/3095475f-5e51-4cb5-8e10-ac8c7e8c700a
 For help, see: https://nodejs.org/en/docs/inspector
@@ -565,7 +567,7 @@ Agent: Excellent! The corrected script now produces the expected output. The scr
 
 You: Node.js v24.11.1
 
-```
+````
 
 ## TODO List Completed During This Demonstration
 
