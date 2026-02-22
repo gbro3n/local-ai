@@ -1,6 +1,6 @@
 # Building a (Bad) Local AI Coding Agent Harness from Scratch
 
-A walk-through of how we built a terminal-based coding agent in ~400 lines of vanilla Node.js, running entirely on a local GPU with no cloud dependencies and no npm packages.
+This is a walk-through of how we built a terminal-based coding agent in ~400 lines of vanilla Node.js, running entirely on a local GPU with no cloud dependencies and no npm packages.
 
 This tool was built with the help of `Claude Sonnet 4.6` in about an hour following set up of Google Gemma 3 4GB running locally under Ollama.
 
