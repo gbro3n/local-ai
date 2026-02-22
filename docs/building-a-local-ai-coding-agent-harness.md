@@ -39,7 +39,7 @@ Sandboxing is achieved by having the harness maps all paths in commands as relat
 
 I have included the (fairly amusing) [resulting 'vibe coding' conversation](#the-resulting-vibe-coding-session) that I had with the Agent, and also the TODO list of steps completed on the way to implementing this demo at the end of this document.
 
-The source for the resulting harness is under `/src/demo-agent-harness`
+The source for the resulting harness is under [/src/demo-agent-harness](/src/demo-agent-harness)
 
 ---
 
