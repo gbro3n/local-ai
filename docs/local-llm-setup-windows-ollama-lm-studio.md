@@ -26,7 +26,7 @@ Check NVIDIA drivers active:
 nvidia-smi
 ```
 
-![NVIDIA drivers active](/images/nvidia-drivers-active.png)
+![NVIDIA drivers active](images/nvidia-drivers-active.png)
 
 Run the `ollama serve` comman
 
@@ -42,7 +42,7 @@ Run `ollama run llama3.2`. This will default to the 3B (3 Billion parameter) ver
 ollama run llama3.2
 ```
 
-![ollama run command](/images/ollama-run-command.png)
+![ollama run command](images/ollama-run-command.png)
 
 **What the initial run command does:**
 
@@ -54,14 +54,14 @@ Verifying/Checksum: It double-checks that the download wasn't corrupted.
 
 Interactive Chat: Once it hits 100%, the prompt will change to >>>, and you can start talking to the model immediately.
 
-![Chatting with Llama 3.2](/images/chatting-with-lamma-3.2.png)
+![Chatting with Llama 3.2](images/chatting-with-lamma-3.2.png)
 
 ### Initial Setup is Complete
 
 You can now chat with Llama 3.2!
 
 ```
->>> Send a message (/images/? for help)
+>>> Send a message (images/? for help)
 ```
 
 ### Performance and Optimisation
@@ -143,9 +143,9 @@ Run this command to allow the VS Code webview:
 
 Quit Ollama from the system tray and restart with `ollama run <model>` the change to take effect.
 
-![VS Code Copilot Chat Model Management](/images/vscode-copilot-chat-model-manage.png)
+![VS Code Copilot Chat Model Management](images/vscode-copilot-chat-model-manage.png)
 
-![VS Code Copilot Chat Add Models](/images/vscode-copilot-chat-add-models.png)
+![VS Code Copilot Chat Add Models](images/vscode-copilot-chat-add-models.png)
 
 Once Ollama is configured, you can switch the model inside the Copilot interface:
 
@@ -169,13 +169,13 @@ For a GUI based local LLM, I have set up LM Studio. This is a more user friendly
 
 Run the Windows installer from <https://lmstudio.ai/>
 
-![LM Studio Website](/images/lm-studio-website.png)
+![LM Studio Website](images/lm-studio-website.png)
 
-![LM Studio Installer](/images/lm-studio-installer.png)
+![LM Studio Installer](images/lm-studio-installer.png)
 
 `google / gemma-3-4b`
 
-![LM Studio Google / Gemma 3 4B](/images/lm-studio-gemma-3-4B-download.png)
+![LM Studio Google / Gemma 3 4B](images/lm-studio-gemma-3-4B-download.png)
 
 Turn on Developer Mode when given the option.
 
@@ -187,9 +187,9 @@ Context Length: I have set this to 8192 tokens is roughly 15-20 pages of text. T
 
 GPU Offload: I have maximised this to use every layer on the GPU to ensure optimal speed.
 
-![Gemma4 4B tuning in LM Studio](/images/gemma3-4b-tuning-in-lm-studio.png)
+![Gemma4 4B tuning in LM Studio](images/gemma3-4b-tuning-in-lm-studio.png)
 
-![gemma3-4b-tuning-in-lm-studio.png](/images/gemma3-4b-tuning-in-lm-studio.png)
+![gemma3-4b-tuning-in-lm-studio.png](images/gemma3-4b-tuning-in-lm-studio.png)
 
 ## Power and Cost Considerations
 
