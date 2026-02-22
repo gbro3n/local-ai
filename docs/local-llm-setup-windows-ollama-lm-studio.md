@@ -1,6 +1,6 @@
 # Local LLM Setup on Windows with Ollama and LM Studio (Lenovo ThinkPad P1 Gen 4 with a RTX A3000 6GB VRAM)
 
-[https://www.appsoftware.com/blog/local-llm-setup-on-windows-with-ollama-and-lm-studio-lenovo-thinkpad-p1-gen-4-with-a-rtx-a3000](Ref: appsoftware.com/blog)
+[Ref: appsoftware.com/blog](https://www.appsoftware.com/blog/local-llm-setup-on-windows-with-ollama-and-lm-studio-lenovo-thinkpad-p1-gen-4-with-a-rtx-a3000)
 
 ## Introduction
 
