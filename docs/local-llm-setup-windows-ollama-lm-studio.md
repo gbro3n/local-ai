@@ -207,6 +207,6 @@ Realistic Daily Use: If you use your local AI for 3 hours an evening for coding 
 
 Verdict: Even if used every single day, the electricity cost will likely be less than £1.50 per month. It is significantly cheaper than a cloud subscription for Claude, Chat GPT, Gemini etc.
 
-## Conlusion
+## Conclusion
 
 If you've got this far I hope you've found this walkthrough useful. Comment if you think there's something that should be added.
