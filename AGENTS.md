@@ -1,6 +1,6 @@
 # Agent Instruction
 
-Read README.md, this is the main document aimed at both humans and LLMS. Confirm you have read this document at the start of each task.
+Read README.md, this is the main document aimed at both humans and LLMs. Confirm you have read this document at the start of each task.
 
 Adhere strictly to these instructions:
 
